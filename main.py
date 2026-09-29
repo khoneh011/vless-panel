@@ -230,7 +230,7 @@ def remove(uid: str):
 
 @app.get("/", response_class=HTMLResponse)
 def home():
-    return "<h1>It works</h1>"
+    return PAGE
 
 PAGE = r"""<!doctype html><html dir=rtl lang=fa><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>Panel</title>
 <style>
